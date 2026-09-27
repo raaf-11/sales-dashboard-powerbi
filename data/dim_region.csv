@@ -1,0 +1,16 @@
+RegionID,Region,City,State
+R01,North,Delhi,Delhi
+R02,North,Chandigarh,Punjab
+R03,North,Jaipur,Rajasthan
+R04,North,Lucknow,Uttar Pradesh
+R05,South,Bengaluru,Karnataka
+R06,South,Chennai,Tamil Nadu
+R07,South,Hyderabad,Telangana
+R08,South,Kochi,Kerala
+R09,West,Mumbai,Maharashtra
+R10,West,Pune,Maharashtra
+R11,West,Ahmedabad,Gujarat
+R12,East,Kolkata,West Bengal
+R13,East,Bhubaneswar,Odisha
+R14,East,Patna,Bihar
+R15,East,Guwahati,Assam

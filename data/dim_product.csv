@@ -1,0 +1,37 @@
+ProductID,ProductName,Category,SubCategory,UnitPrice,UnitCost
+P001,Galaxy Phone,Electronics,Mobiles,18999,16048.0
+P002,Nova Phone Pro,Electronics,Mobiles,32999,28492.0
+P003,Budget Phone X,Electronics,Mobiles,9999,8398.0
+P004,UltraBook 14,Electronics,Laptops,58999,50087.0
+P005,Gaming Laptop 15,Electronics,Laptops,84999,75031.0
+P006,Student Laptop,Electronics,Laptops,38999,32500.0
+P007,Wireless Earbuds,Electronics,Audio,2499,2113.0
+P008,Bluetooth Speaker,Electronics,Audio,3499,2953.0
+P009,Noise-Cancel Headphones,Electronics,Audio,8999,7927.0
+P010,Power Bank 20k,Electronics,Accessories,1499,1293.0
+P011,Smartwatch,Electronics,Accessories,4999,4335.0
+P012,USB-C Charger,Electronics,Accessories,999,835.0
+P013,Office Chair,Furniture,Chairs,7999,5969.0
+P014,Ergonomic Chair,Furniture,Chairs,14999,10934.0
+P015,Study Table,Furniture,Tables,5999,4592.0
+P016,Dining Table 4-Seater,Furniture,Tables,18999,14937.0
+P017,Bookshelf,Furniture,Storage,4499,3396.0
+P018,Wardrobe 2-Door,Furniture,Storage,16999,13631.0
+P019,Table Lamp,Furniture,Decor,1299,946.0
+P020,Wall Clock,Furniture,Decor,799,597.0
+P021,A4 Paper Ream,Office Supplies,Paper,349,226.0
+P022,Notebook Pack,Office Supplies,Paper,299,209.0
+P023,Ring Binder Set,Office Supplies,Binders,449,278.0
+P024,File Organizer,Office Supplies,Binders,599,377.0
+P025,Marker Set,Office Supplies,Art,249,160.0
+P026,Sketch Kit,Office Supplies,Art,899,646.0
+P027,Pen Pack,Office Supplies,Stationery,149,102.0
+P028,Desk Organizer,Office Supplies,Stationery,699,516.0
+P029,Men's Casual Shirt,Fashion,Men,1299,874.0
+P030,Men's Jeans,Fashion,Men,1999,1184.0
+P031,Men's Sneakers,Fashion,Men,2999,1748.0
+P032,Women's Kurti,Fashion,Women,1199,658.0
+P033,Women's Handbag,Fashion,Women,2499,1616.0
+P034,Women's Sandals,Fashion,Women,1499,959.0
+P035,Kids T-Shirt,Fashion,Kids,499,312.0
+P036,Kids Shoes,Fashion,Kids,1299,867.0

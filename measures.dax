@@ -1,0 +1,35 @@
+-- ============================================================
+-- DAX used in Sales_Dashboard.pbix
+-- ============================================================
+
+
+-- ------------------------------------------------------------
+-- CALCULATED COLUMN on fact_sales
+-- (Table view > select fact_sales > Table tools > New column)
+-- Days between order and shipping.
+-- ------------------------------------------------------------
+ShipDays = DATEDIFF ( fact_sales[OrderDate], fact_sales[ShipDate], DAY )
+
+
+-- ------------------------------------------------------------
+-- MEASURES (stored in the _Measures table)
+-- Home > New measure > paste one at a time
+-- ------------------------------------------------------------
+
+-- Total revenue after discounts.
+-- Format: Currency, ₹ English (India), 0 decimals
+Total Sales = SUM ( fact_sales[SalesAmount] )
+
+-- Total profit (sales minus cost).
+-- Format: Currency, ₹ English (India), 0 decimals
+Total Profit = SUM ( fact_sales[Profit] )
+
+-- Share of each rupee of sales that is profit.
+-- DIVIDE returns blank instead of an error when sales are zero.
+-- Format: Percentage, 1 decimal
+Profit Margin % = DIVIDE ( [Total Profit], [Total Sales] )
+
+-- Number of unique orders. One order can have several lines,
+-- so this counts distinct OrderIDs rather than rows.
+-- Format: Whole number with thousands separator
+Total Orders = DISTINCTCOUNT ( fact_sales[OrderID] )
