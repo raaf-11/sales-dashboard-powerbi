@@ -52,7 +52,7 @@ Every visual is interactive. Clicking a region, category or channel filters the 
 
 ---
 
-## 🗂 Data model
+## Data model
 
 ```
                  dim_date
